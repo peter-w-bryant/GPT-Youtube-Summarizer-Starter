@@ -39,7 +39,7 @@ If you submit a full URL to a YouTube video of your choice and hit summarize, yo
 Please feel free to modify this application to your own project needs!
 
 ## Example Output
-As an example, when passed the URL of (Key & Peele's infamous Substitute Teacher skit)[https://www.youtube.com/watch?v=Dd7FixvoKBw], the following JSON was returned,
+As an example, when passed the URL of [Key & Peele's infamous Substitute Teacher skit](https://www.youtube.com/watch?v=Dd7FixvoKBw), the following JSON was returned,
 
 ```
 {
