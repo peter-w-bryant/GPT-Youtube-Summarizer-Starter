@@ -41,14 +41,3 @@ body {
   cursor: pointer;
   background-color: #4285f4;
   }
-  
-  .time-saved {
-  text-align: center;
-  font-size: 1.5em;
-  margin-top: 50px;
-  }
-  
-  #time-saved-value {
-  color: #4CAF50;
-  font-weight: bold;
-  }
