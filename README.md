@@ -26,7 +26,7 @@ python3 app.py
 
 This should start a development server, at which point you can go to `http://127.0.0.1:8000` in your browser where you will see a very simple HTML page for submitting a YouTube URL. 
 
-![index](https://user-images.githubusercontent.com/72423203/214468313-fa41945c-a3cf-418b-b582-29a3105d0257.png)
+![index](https://user-images.githubusercontent.com/72423203/214469179-5ff483d1-593f-4c6b-9eca-d90e707844e2.png)
 
 If you submit a full URL to a YouTube video of your choice and hit summarize, you will return a JSON response at the `http://127.0.0.1:8000/summarize` route that looks like,
 
