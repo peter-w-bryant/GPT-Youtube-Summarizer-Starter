@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  }
+  
+  h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 50px;
+  }
+  
+  .search-bar {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+  form {
+  display: inline-block;
+  }
+  
+  input[type="text"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  .time-saved {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 50px;
+  }
+  
+  #time-saved-value {
+  color: #4CAF50;
+  font-weight: bold;
+  }
+  
+  /* Add Google's color scheme */
+  body {
+  background-color: #fff;
+  }
+  
+  h1 {
+  color: #222;
+  }
+  
+  input[type="text"] {
+  background-color: #fff;
+  border: 1px solid #999;
+  }
+  
+  button[type="submit"] {
+  background-color: #4285f4;
+  }
+  
+  /* Add Google's font */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+  body {
+  font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Add Google's hover effect */
+  button[type="submit"]:hover {
+  background-color: #357ae8;
+  }
+  
+  /* Add Google's focus effect */
+  input[type="text"]:focus {
+  border-color: #4285f4;
+  }
+  
+  /* Add Google's active effect */
+  button[type="submit"]:active {
+  background-color: #357ae8;
+  }
