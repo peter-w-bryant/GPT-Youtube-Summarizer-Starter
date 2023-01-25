@@ -46,10 +46,11 @@ def summarize():
     # Full transcript string
     transcript_str = ""
     for line in transcript:
-        transcript_str += line["text"] + " "
         # Break if transcript exceeds 2048 tokens (max context length for text-davinci-002)
         if len(transcript_str.strip()) + config.max_tokens >= 2048 and config.model == "text-davinci-002":
             break
+        transcript_str += line["text"] + " "
+
 
     # Initialize OpenAI API key
     openai.api_key = config.openai_API_key
