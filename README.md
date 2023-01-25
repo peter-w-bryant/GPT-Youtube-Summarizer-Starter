@@ -35,3 +35,14 @@ If you submit a full URL to a YouTube video of your choice and hit summarize, yo
   "summary": "Summary text of length max tokens."
 }
 ```
+
+Please feel free to modify this application to your own project needs!
+
+## Example Output
+As an example, when passed the URL of (Key & Peele's infamous Substitute Teacher skit)[https://www.youtube.com/watch?v=Dd7FixvoKBw], the following JSON was returned,
+
+```
+{
+  "summary": "\n\nIn the video, a substitute teacher takes attendance and gets frustrated when the students don't say their names correctly. He yells at them and threatens to send them to the principal's office."
+}
+```
