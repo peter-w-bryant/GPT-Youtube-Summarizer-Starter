@@ -43,6 +43,6 @@ As an example, when passed the URL of [Key & Peele's infamous Substitute Teacher
 
 ```
 {
-  "summary": "\n\nIn the video, a substitute teacher takes attendance and gets frustrated when the students don't say their names correctly. He yells at them and threatens to send them to the principal's office."
+  "summary": "The video is about a substitute teacher who is taking attendance and gets frustrated when the students don't say their names correctly. He threatens to send one student, Aaron, to the principal's office for not pronouncing his name correctly."
 }
 ```
