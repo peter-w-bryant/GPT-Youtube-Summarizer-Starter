@@ -58,15 +58,21 @@ def summarize():
         f"Summarize the video {title} with the following transcript: {transcript_str}"
     )
     
-    # Generate summary with GPT-3
-    completions = openai.Completion.create(
-        engine=config.model,
-        prompt=gpt3_prompt,
-        max_tokens=config.max_tokens,
-        n=1,
-        stop=None,
-        temperature=config.temperature,
-    )
+    try:
+        # Generate summary with GPT-3
+        completions = openai.Completion.create(
+            engine=config.model,
+            prompt=gpt3_prompt,
+            max_tokens=config.max_tokens,
+            n=1,
+            stop=None,
+            temperature=config.temperature,
+        )
+
+    except Exception as e:
+        # Return error message as JSON response
+        print("Exception raised when generating summary: ", e)
+        return {"error": str(e)}
 
     # Extract summary from completions
     summary = completions.choices[0].text
