@@ -33,8 +33,6 @@ def summarize():
     api_url = f"https://www.googleapis.com/youtube/v3/videos?part=snippet&id={video_id}&key={youtube_api_key}"
     r = requests.get(api_url)
     video_data = r.json()
-    with open('search_cache.json', 'w') as json_file:
-        json.dump(video_data, json_file)
 
     # Extract video title and description
     title = video_data["items"][0]["snippet"]["title"]
@@ -72,6 +70,9 @@ def summarize():
 
     # Extract summary from completions
     summary = completions.choices[0].text
+
+    # Remove any extra newline '\n' characters
+    summary = summary.replace("\n", "")
 
     # # Return summary as JSON response
     return {"summary": summary}
